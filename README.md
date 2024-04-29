@@ -9,6 +9,7 @@ User Engagement: Enhance the browsing experience by providing an interactive and
 Database Integration: Use a database to manage movie data, user profiles, comments, and favorites.
 Social Interaction: Allow users to comment on movies and share their opinions within the community.
 Personalization: Enable users to curate their favorite movies in a personalized list for easy access.
+
 Features
 Search Functionality
 Users can search for movies based on categories such as Action, Comedy, Drama, etc.
@@ -19,6 +20,7 @@ Users can rate movies, influencing the overall movie rating displayed.
 Favorites List
 Users can add movies to their favorites list.
 Easy management of the list with options to add or remove movies.
+
 Technical Specifications
 Database (SQLite)
 Stores data about movies, user accounts, comments, and favorites.
@@ -36,6 +38,7 @@ Implement OAuth for secure login processes.
 Allow users to sign in using Google or Facebook for a simplified login experience.
 Responsive Design
 Ensure the website is functional and aesthetically pleasing on both desktop and mobile devices.
+
 Project Structure
 app.py: Main application file where Flask routes are defined.
 dbutil.py: Contains utility functions for database operations.
